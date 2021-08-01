@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.upper {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.right {
+  display: flex;
+}
+.right,
+.left {
+  text-align: center;
+}
+.left {
+  background-color: rgb(228, 228, 255);
+  border-bottom: 4px solid rgb(0, 110, 255);
+  height: 10vh;
+  line-height: 10vh;
+  width: 15vw;
+}
+.income {
+  background-color: rgb(233, 255, 233);
+  border-bottom: 4px solid rgb(97, 236, 62);
+  margin-right: 30px;
+  line-height: 10vh;
+  width: 15vw;
+}
+.expense {
+  width: 15vw;
+  background-color: rgb(255, 240, 240);
+  border-bottom: 4px solid rgb(255, 47, 47);
+  line-height: 10vh;
+}
+
+.lower {
+  display: flex;
+  justify-content: space-between;
+  margin-top:60px;
+}
+.form {
+  text-align: center;
+  width: 50vw;
+  border-right: 2px solid black;
+  height: 50vh;
+}
+.history {
+  text-align: center;
+  width: 50vw;
+}
+
+
+li {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(240, 240, 240);
+  margin-top: 10px;
+  list-style: none;
+  cursor: pointer;
+  padding: 10px 0;
+  width:20vw;
+}
+.minus {
+  border-right: 4px solid red;
+}
+.plus {
+  border-right: 4px solid rgb(135, 238, 135);
+}
+
+/* .trash{
+  display: none;
+} */
+li:hover{
+  background-color: rgb(231, 231, 231);
+}
+
+span{
+  margin:0 10px;
+}
+.transaction{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
